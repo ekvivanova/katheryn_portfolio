@@ -1,0 +1,27 @@
+/* SC208 MOBILE: Figma 736:70146 (desktop), 841:86311 (mobile).
+   Typography, motion and fixed navigation are shared with SC208 WEB. */
+.app-case{margin-top:clamp(54px,6.25vw,100px)}
+.app-case .context-panel{gap:20px}
+.app-case .section-intro,.app-case .solution-stack{gap:16px}
+.app-case .examples{gap:20px}
+.app-case .metric-rows{gap:8px}
+.app-case .pills{max-width:100%}
+.app-case .pills span{max-width:100%;overflow-wrap:break-word}
+.app-case .app-desktop-video{aspect-ratio:4/3;border-radius:32px;background:var(--surface)}
+.app-case .app-video{display:block;width:100%;height:100%;object-fit:contain}
+.app-case .case-picture .case-image{border-radius:32px}
+.app-case .section-group>.case-picture .case-image{border-radius:40px}
+.app-case .business-divider{display:block}
+.app-case .mobile-media{display:none}
+@media(max-width:700px){
+  .app-case .desktop-media,.app-case .desktop-line-break{display:none}
+  .app-case .mobile-media{display:block}
+  .app-case .mobile-image-pair,.app-case .mobile-video-pair{display:flex;gap:16px}
+  .app-case .home-example{gap:16px}
+  .app-case .case-picture .case-image{border-radius:0}
+  .app-case .section-group>.case-picture{width:calc(100% - 32px);max-width:361px}
+  .app-case .panel .case-picture,.app-case .panel .mobile-video{width:100%;max-width:361px;align-self:center}
+  .app-case .scenario-pills span,.app-case .metric-pills span{font-size:14px;line-height:20px}
+  .app-case .note{width:100%}
+  .app-case .phone-alpha-mask .app-video{mask-image:url('./assets/home-mobile-first.png');mask-mode:alpha;mask-size:100% 100%;mask-repeat:no-repeat}
+}

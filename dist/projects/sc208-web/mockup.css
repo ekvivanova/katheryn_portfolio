@@ -1,0 +1,74 @@
+/* Scoped styles for the miniature SC208 website, adapted from Figma. */
+.mockup-canvas .mock-style-1{position:relative;width:100%;height:100%}
+.mockup-canvas .mock-style-2{position:absolute;height:308.25px;left:0;top:0;width:548px}
+.mockup-canvas .mock-style-3{position:absolute;inset:0;pointer-events:none}
+.mockup-canvas .mock-style-4{position:absolute;inset:0;mix-blend-mode:luminosity;object-fit:cover}
+.mockup-canvas .mock-style-5{position:absolute;background:linear-gradient(to top,rgba(23,24,26,.2),transparent);inset:0}
+.mockup-canvas .mock-style-6{--tx:-50%;overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;font-family:"Geist Mono",monospace;font-weight:500;gap:4.567px;align-items:center;left:calc(50% + 0.14px);top:143.56px;text-transform:uppercase;white-space:nowrap;transform:translate(var(--tx,0),var(--ty,0)) scaleX(var(--sx,1))}
+.mockup-canvas .mock-style-7{align-content:stretch;display:flex;gap:4.567px;align-items:center;justify-content:center;position:relative;flex-shrink:0;font-size:6.85px}
+.mockup-canvas .mock-style-8{align-content:stretch;display:flex;gap:0.571px;align-items:center;justify-content:center;position:relative;flex-shrink:0}
+.mockup-canvas .mock-style-9{line-height:1.4;position:relative;flex-shrink:0;color:rgba(249,248,246,0)}
+.mockup-canvas .mock-style-10{line-height:9.133px;position:relative;flex-shrink:0;color:rgba(249,248,246,0.9);text-align:center}
+.mockup-canvas .mock-style-11{align-content:stretch;display:flex;gap:2.283px;align-items:center;justify-content:center;line-height:6.85px;position:relative;flex-shrink:0;font-size:4.567px;text-align:center}
+.mockup-canvas .mock-style-12{position:relative;flex-shrink:0;color:rgba(249,248,246,0.64)}
+.mockup-canvas .mock-style-13{position:relative;flex-shrink:0;color:rgba(255,255,181,0.64)}
+.mockup-canvas .mock-style-14{position:absolute;bottom:5.14px;align-content:stretch;display:flex;gap:0.571px;align-items:center;right:11.41px}
+.mockup-canvas .mock-style-15{backdrop-filter:blur(2.283px);background-color:rgba(23,24,26,0.24);align-content:stretch;display:flex;align-items:center;justify-content:center;padding-left:3.425px;padding-right:3.425px;padding-top:1.712px;padding-bottom:1.712px;position:relative;border-radius:2px;flex-shrink:0}
+.mockup-canvas .mock-style-16{overflow-wrap:break-word;font-family:"Geist Mono",monospace;font-weight:400;line-height:5.708px;position:relative;flex-shrink:0;font-size:4px;color:rgba(249,248,246,0.9);text-transform:uppercase;white-space:nowrap}
+.mockup-canvas .mock-style-17{backdrop-filter:blur(2.283px);background-color:rgba(23,24,26,0.24);align-content:stretch;display:flex;align-items:center;justify-content:center;padding:1.142px;position:relative;border-radius:2px;flex-shrink:0}
+.mockup-canvas .mock-style-18{position:relative;flex-shrink:0;width:6.85px;height:6.85px}
+.mockup-canvas .mock-style-19{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.mockup-canvas .mock-style-20{align-content:stretch;display:flex;align-items:flex-start;justify-content:space-between;padding-left:40px;padding-right:40px;padding-top:16px;padding-bottom:16px;position:relative;width:100%;height:100%}
+.mockup-canvas .mock-style-21{align-content:stretch;display:flex;align-items:flex-start;justify-content:space-between;position:relative;flex-shrink:0;width:1260px}
+.mockup-canvas .mock-style-22{height:28px;position:relative;flex-shrink:0;width:124px}
+.mockup-canvas .mock-style-23{position:absolute;inset:0 -0.86% 0 0}
+.mockup-canvas .mock-style-24{display:block;max-width:none;width:100%;height:100%}
+.mockup-canvas .mock-style-25{align-content:stretch;display:flex;gap:2px;align-items:flex-start;position:relative;flex-shrink:0}
+.mockup-canvas .mock-style-26{align-content:stretch;display:flex;flex-direction:column;gap:2px;align-items:flex-start;position:relative;flex-shrink:0}
+.mockup-canvas .mock-style-27{align-content:stretch;display:flex;gap:2px;align-items:center;position:relative;flex-shrink:0}
+.mockup-canvas .mock-style-28{backdrop-filter:blur(8px);background-color:rgba(23,24,26,0.24);align-content:stretch;display:flex;align-items:center;justify-content:center;padding-left:8px;padding-right:8px;padding-top:4px;padding-bottom:4px;position:relative;border-radius:2px;flex-shrink:0}
+.mockup-canvas .mock-style-29{overflow-wrap:break-word;font-family:"Geist Mono",monospace;font-weight:400;line-height:24px;position:relative;flex-shrink:0;font-size:16px;color:rgba(249,248,246,0.9);text-align:justify;text-transform:uppercase;white-space:nowrap}
+.mockup-canvas .mock-style-30{backdrop-filter:blur(8px);background-color:rgba(23,24,26,0.24);align-content:stretch;display:flex;align-items:center;justify-content:center;padding:10px;position:relative;border-radius:2px;flex-shrink:0}
+.mockup-canvas .mock-style-31{position:relative;flex-shrink:0;width:12px;height:12px}
+.mockup-canvas .mock-style-32{position:absolute;align-content:stretch;display:flex;align-items:center;justify-content:center;left:0;top:0}
+.mockup-canvas .mock-style-33{backdrop-filter:blur(8px);background-color:rgba(249,248,246,0.24);align-content:stretch;display:flex;align-items:center;justify-content:center;padding-left:12px;padding-right:12px;padding-top:6px;padding-bottom:6px;position:relative;border-radius:2px;flex-shrink:0}
+.mockup-canvas .mock-style-34{overflow-wrap:break-word;font-family:"Geist Mono",monospace;font-weight:400;line-height:20px;position:relative;flex-shrink:0;font-size:16px;color:rgba(249,248,246,0.9);text-align:center;text-transform:uppercase;white-space:nowrap}
+.mockup-canvas .mock-style-35{backdrop-filter:blur(8px);background-color:rgba(249,248,246,0.24);align-content:stretch;display:flex;align-items:center;justify-content:center;padding:7px;position:relative;border-radius:2px;flex-shrink:0}
+.mockup-canvas .mock-style-36{position:relative;flex-shrink:0;width:18px;height:18px}
+.mockup-canvas .mock-style-37{align-content:stretch;display:flex;flex-direction:column;gap:9.133px;align-items:center;padding-bottom:17.696px;padding-top:35.392px;padding-left:11.417px;padding-right:11.417px;position:relative;width:100%;height:100%}
+.mockup-canvas .mock-style-38{overflow-wrap:break-word;align-content:stretch;display:flex;font-family:"Geist Mono",monospace;font-weight:500;gap:4.567px;align-items:center;justify-content:center;line-height:9.133px;position:relative;flex-shrink:0;font-size:6.85px;text-align:center;text-transform:uppercase;white-space:nowrap}
+.mockup-canvas .mock-style-39{position:relative;flex-shrink:0;color:rgba(255,255,181,0.9)}
+.mockup-canvas .mock-style-40{position:relative;flex-shrink:0;color:rgba(249,248,246,0.9)}
+.mockup-canvas .mock-style-41{align-content:stretch;display:flex;gap:4.567px;align-items:flex-end;position:relative;flex-shrink:0;width:100%}
+.mockup-canvas .mock-style-42{align-content:stretch;display:flex;flex-direction:column;gap:4.567px;align-items:flex-start;position:relative;flex-shrink:0;width:216.06px}
+.mockup-canvas .mock-style-43{overflow-wrap:break-word;font-family:"Geist Mono",monospace;font-weight:500;line-height:7.992px;position:relative;flex-shrink:0;font-size:5.71px;color:rgba(249,248,246,0.9);text-transform:uppercase;width:100%}
+.mockup-canvas .mock-style-44{height:205.5px;position:relative;border-radius:2px;flex-shrink:0;width:100%}
+.mockup-canvas .mock-style-45{position:absolute;height:205.5px;left:0;border-radius:2px;top:0;width:216.06px}
+.mockup-canvas .mock-style-46{position:absolute;height:67.644px;left:0;border-bottom-left-radius:0.571px;border-bottom-right-radius:0.571px;top:137.86px;width:216.06px}
+.mockup-canvas .mock-style-47{overflow-wrap:break-word;position:absolute;bottom:25.69px;font-family:"Raleway",sans-serif;font-weight:400;line-height:6.85px;left:5.14px;font-size:4.57px;color:rgba(249,248,246,0.8);--ty:100%;width:166.969px;transform:translate(var(--tx,0),var(--ty,0)) scaleX(var(--sx,1))}
+.mockup-canvas .mock-style-48{align-content:stretch;display:flex;flex-direction:column;gap:4.567px;align-items:flex-start;position:relative;flex-shrink:0;width:127.867px}
+.mockup-canvas .mock-style-49{overflow-wrap:break-word;font-family:"Geist Mono",monospace;font-weight:500;line-height:6.85px;position:relative;flex-shrink:0;font-size:4.57px;color:rgba(249,248,246,0.64);text-transform:uppercase;width:100%}
+.mockup-canvas .mock-style-50{height:130.15px;opacity:0.8;position:relative;border-radius:2px;flex-shrink:0;width:100%}
+.mockup-canvas .mock-style-51{position:absolute;inset:0;pointer-events:none;border-radius:2px}
+.mockup-canvas .mock-style-52{position:absolute;max-width:none;object-fit:cover;border-radius:2px;width:100%;height:100%}
+.mockup-canvas .mock-style-53{position:absolute;background-color:rgba(23,24,26,0.4);inset:0;border-radius:2px}
+.mockup-canvas .mock-style-54{overflow-wrap:break-word;font-family:"Geist Mono",monospace;font-weight:500;line-height:1.955px;position:relative;flex-shrink:0;font-size:1.3px;color:rgba(249,248,246,0.64);text-transform:uppercase;width:100%}
+.mockup-canvas .mock-style-55{position:absolute;max-width:none;mix-blend-mode:luminosity;object-fit:cover;border-radius:2px;width:100%;height:100%}
+.mockup-canvas .mock-style-56{align-content:stretch;display:flex;flex-direction:column;gap:9.133px;align-items:center;padding-bottom:35.392px;padding-top:17.696px;padding-left:11.417px;padding-right:11.417px;position:relative;width:100%;height:100%}
+.mockup-canvas .mock-style-57{overflow-wrap:break-word;font-family:"Geist Mono",monospace;font-weight:500;line-height:9.133px;position:relative;flex-shrink:0;font-size:6.85px;color:rgba(249,248,246,0.9);text-align:center;text-transform:uppercase;width:100%}
+.mockup-canvas .mock-style-58{align-content:flex-start;display:flex;flex-wrap:wrap;gap:12px 4.567px;height:363.05px;align-items:flex-start;position:relative;flex-shrink:0;width:100%}
+.mockup-canvas .mock-style-59{align-content:stretch;display:flex;flex-direction:column;gap:3.425px;height:178.1px;align-items:flex-start;position:relative;flex-shrink:0;width:260.3px}
+.mockup-canvas .mock-style-60{height:165.542px;position:relative;flex-shrink:0;width:100%}
+.mockup-canvas .mock-style-61{position:absolute;height:165.542px;left:0;border-radius:2px;top:0;width:260.3px}
+.mockup-canvas .mock-style-62{overflow-wrap:break-word;position:absolute;bottom:13.13px;font-family:"Geist Mono",monospace;font-weight:500;line-height:7.992px;left:5.14px;font-size:5.71px;color:rgba(249,248,246,0.9);--ty:100%;text-transform:uppercase;white-space:nowrap;transform:translate(var(--tx,0),var(--ty,0)) scaleX(var(--sx,1))}
+.mockup-canvas .mock-style-63{align-content:stretch;display:flex;gap:2.283px;align-items:center;position:relative;flex-shrink:0}
+.mockup-canvas .mock-style-64{align-content:stretch;display:flex;gap:0.571px;align-items:center;position:relative;flex-shrink:0}
+.mockup-canvas .mock-style-65{backdrop-filter:blur(2.283px);background-color:rgba(249,248,246,0.24);align-content:stretch;display:flex;align-items:center;justify-content:center;padding-left:3.425px;padding-right:3.425px;padding-top:1.712px;padding-bottom:1.712px;position:relative;border-radius:2px;flex-shrink:0}
+.mockup-canvas .mock-style-66{overflow-wrap:break-word;font-family:"Geist Mono",monospace;font-weight:400;line-height:5.708px;position:relative;flex-shrink:0;font-size:4.57px;color:rgba(249,248,246,0.9);text-align:center;text-transform:uppercase;white-space:nowrap}
+.mockup-canvas .mock-style-67{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;border-radius:2px;width:100%;height:100%}
+.mockup-canvas .mock-style-68{--tx:-50%;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:9.133px;align-items:center;left:calc(50% + 14.27px);top:61.08px;width:111.313px;transform:translate(var(--tx,0),var(--ty,0)) scaleX(var(--sx,1))}
+.mockup-canvas .mock-style-69{overflow-wrap:break-word;align-content:stretch;display:flex;flex-direction:column;gap:4.567px;align-items:center;position:relative;flex-shrink:0;text-align:center;width:100%}
+.mockup-canvas .mock-style-70{align-content:stretch;display:flex;flex-direction:column;font-family:"Geist Mono",monospace;font-weight:500;gap:2.283px;align-items:center;line-height:9.133px;position:relative;flex-shrink:0;font-size:6.85px;text-transform:uppercase;width:100%;white-space:nowrap}
+.mockup-canvas .mock-style-71{font-family:"Raleway",sans-serif;font-weight:400;line-height:5.708px;position:relative;flex-shrink:0;font-size:3.996px;color:rgba(249,248,246,0.8);width:100%}
+.mockup-canvas .mock-style-72{border-width:0.285px;border-color:rgba(249,248,246,0.8);border-style:solid;align-content:stretch;display:flex;align-items:center;justify-content:center;padding-left:9.133px;padding-right:9.133px;padding-top:4.567px;padding-bottom:4.567px;position:relative;border-radius:2px;flex-shrink:0}
+.mockup-canvas .mock-style-73{overflow-wrap:break-word;font-family:"Geist Mono",monospace;font-weight:400;line-height:5.708px;position:relative;flex-shrink:0;font-size:4.57px;color:rgba(249,248,246,0.9);text-transform:uppercase;white-space:nowrap}

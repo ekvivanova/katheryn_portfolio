@@ -1,0 +1,43 @@
+/* Figma: desktop 887:55417, mobile 887:55704.
+   Shared portfolio typography, palette, reveals and fixed navigation. */
+.gka-case{margin-top:clamp(56px,6.25vw,100px)}
+.gka-case .section-intro,.gka-case .solution-stack{gap:16px}
+.gka-case .business-examples{gap:20px}
+.gka-case .path-pills{flex-direction:column;align-items:flex-start}
+.gka-case .pills span{max-width:100%;overflow-wrap:break-word}
+.gka-case .research-hypotheses{display:flex;flex-direction:column;align-items:center;gap:8px;padding:24px}
+.gka-case .research-hypotheses .note{width:596px;max-width:100%;padding:16px;border-radius:16px}
+.gka-case .gka-desktop-video{aspect-ratio:auto;background:var(--surface);border-radius:24px}
+.gka-case .section-group>.gka-desktop-video{border-radius:40px}
+.gka-case .gka-video{display:block;width:100%;height:100%;object-fit:contain}
+.gka-case .case-picture .case-image{border-radius:24px}
+.gka-case .section-group>.case-picture .case-image{border-radius:40px}
+.gka-case .mobile-media{display:none}
+.gka-case .scenario-slider{display:flex;flex-direction:column;gap:0;width:100%;max-width:none}
+.scenario-track{display:flex;width:100%;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:24px;cursor:grab;touch-action:pan-x pan-y;outline-offset:4px}
+.scenario-track::-webkit-scrollbar{display:none}
+.scenario-track:focus-visible{outline:3px solid var(--ink)}
+.scenario-track.is-dragging{scroll-snap-type:none;cursor:grabbing;user-select:none}
+.scenario-slide{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always;display:flex;justify-content:center}
+.scenario-slide video{pointer-events:none}
+.scenario-pagination{display:flex;justify-content:center;margin-top:1px}
+.scenario-page{display:flex;align-items:center;justify-content:center;width:24px;height:28px;padding:0;border:0;background:transparent}
+.scenario-page span{display:block;width:24px;height:6px;background:#06579e;opacity:.24;transition:opacity .2s}
+.scenario-page:first-child span{border-radius:40px 0 0 40px}
+.scenario-page:last-child span{border-radius:0 40px 40px 0}
+.scenario-page[aria-current=true] span{opacity:1}
+@media(max-width:700px){
+ .gka-case .desktop-media{display:none}
+ .gka-case .mobile-media{display:block}
+ .gka-case .project-blog-videos{display:flex;gap:16px}
+ .gka-case .research-hypotheses{padding:0 16px}
+ .gka-case .research-hypotheses .note{width:100%;padding:12px;align-self:center}
+ .gka-case .section-group>.case-picture,.gka-case .section-group>.mobile-video{width:calc(100% - 32px);max-width:361px}
+ .gka-case .panel .case-picture,.gka-case .panel .mobile-video{width:100%;max-width:361px;align-self:center}
+ .gka-case .panel .scenario-slider{max-width:100%}
+ .gka-case .case-picture .case-image{border-radius:0}
+ .gka-case .gka-phone-video .gka-video{mask-image:url('./assets/jtbd-mobile.png');mask-mode:alpha;mask-size:100% 100%;mask-repeat:no-repeat}
+ .gka-case .result-pills span{font-size:14px;line-height:20px}
+ .scenario-track{border-radius:0}
+ .scenario-page{height:36px}
+}

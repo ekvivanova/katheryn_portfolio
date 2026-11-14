@@ -147,3 +147,33 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+
+# This buildless portfolio is published directly from dist.
+!/dist/
+!/dist/**
+
+# Local machine, editor and preview state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.openai/
+*.tmp
+*.swp
+*.bak
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and credentials (never part of the public site)
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+.env
+.env.*
+!.env.example

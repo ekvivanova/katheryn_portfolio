@@ -1,0 +1,82 @@
+/* Figma: desktop 984:63144; mobile 1080:67668. */
+.forma-case{margin-top:clamp(54px,6.25vw,100px)}
+.forma-case .pills span{max-width:100%;overflow-wrap:break-word}
+.forma-case .product-research,.forma-case .structure-section{gap:40px}
+.product-insights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));row-gap:24px}
+.product-insight{display:flex;flex-direction:column;gap:8px;border-radius:16px}
+.product-insight:nth-child(2){grid-column:2;grid-row:2}
+.product-insight:nth-child(3){grid-column:3;grid-row:3}
+.product-insight .insight-title{font-size:16px;line-height:24px;font-weight:500}
+.product-insight.case-reveal.is-visible{transition-delay:calc(var(--insight-index) * 180ms)}
+.forma-case .research-hypotheses{display:flex;flex-direction:column;align-items:center;gap:8px;padding:0 24px}
+.forma-case .research-hypotheses .note{width:596px;max-width:100%;padding:16px;border-radius:16px}
+.forma-case .solutions{gap:20px}
+.forma-case .solution-stack,.forma-case .example{gap:16px}
+.forma-case .forma-desktop-video{aspect-ratio:auto;background:var(--surface);border-radius:24px}
+.forma-case .section-group>.forma-desktop-video{border-radius:40px}
+.forma-case .forma-video{display:block;width:100%;height:100%;object-fit:contain}
+.forma-case .media-carousel{display:flex;flex-direction:column;gap:0;width:100%;max-width:none}
+.media-track{display:flex;width:100%;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:24px;cursor:grab;touch-action:pan-x pan-y;outline-offset:4px;align-items:start}
+.media-track::-webkit-scrollbar{display:none}
+.media-track:focus-visible{outline:3px solid var(--ink)}
+.media-track.is-dragging{scroll-snap-type:none;cursor:grabbing;user-select:none}
+.media-slide{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always;display:flex;justify-content:center}
+.media-slide video,.media-slide img{pointer-events:none;user-select:none}
+.media-pagination{display:flex;justify-content:center;margin-top:0}
+.media-page{display:flex;align-items:center;justify-content:center;width:24px;height:28px;padding:0;border:0;background:transparent}
+.media-page span{display:block;width:24px;height:6px;background:var(--muted);opacity:.24;transition:opacity .2s}
+.media-page:first-child span{border-radius:40px 0 0 40px}
+.media-page:last-child span{border-radius:0 40px 40px 0}
+.media-page[aria-current=true] span{opacity:1}
+.structure-carousel .media-track{gap:8px;cursor:auto;overflow:visible}
+.structure-carousel .media-slide{flex-basis:calc((100% - 8px)/2)}
+.structure-carousel .media-pagination{display:none}
+.forma-case .mobile-media{display:none}
+@media(min-width:701px){
+ /* Exported frame alpha is lost in MP4; restore it on the video layer itself. */
+ .forma-case .forma-desktop-video{background:transparent}
+ .forma-case .forma-desktop-video .forma-video,
+ .forma-case .concept-carousel .case-image{
+  -webkit-mask-image:var(--frame-mask);mask-image:var(--frame-mask);
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;
+  -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+ }
+ #concept-one{--frame-mask:url('./assets/concept-one-mask.svg')}
+ #concept-two{--frame-mask:url('./assets/concept-two-mask.svg')}
+ #final-desktop{--frame-mask:url('./assets/final-desktop-mask.svg')}
+ #technical-desktop{--frame-mask:url('./assets/technical-desktop-mask.svg')}
+ #cooperation-desktop{--frame-mask:url('./assets/cooperation-desktop-mask.svg')}
+ #production-desktop{--frame-mask:url('./assets/production-desktop-mask.svg')}
+ #projects-desktop{--frame-mask:url('./assets/projects-desktop-mask.svg')}
+ #landing-desktop{--frame-mask:url('./assets/landing-desktop-mask.svg')}
+ .concept-carousel .case-image{--frame-mask:url('./assets/moodboard-mask.svg')}
+ /* A horizontal carousel must not create an inner vertical scroll area. */
+ .forma-case .media-track{overflow-y:hidden}
+ .forma-case .structure-carousel .media-track{overflow:visible}
+}
+@media(max-width:700px){
+ .forma-case .desktop-media{display:none}
+ .forma-case .mobile-media{display:block}
+ .forma-case .media-carousel.mobile-media{display:flex}
+ .forma-case .product-research,.forma-case .structure-section{gap:16px}
+ .product-insights{display:flex;flex-direction:column;gap:8px;padding:0 8px}
+ .product-insight{width:100%;padding:16px}
+ .product-insight.case-reveal.is-visible{transition-delay:var(--case-reveal-delay,0ms)}
+ .forma-case .research-hypotheses{padding:0 16px}
+ .forma-case .research-hypotheses .note{width:100%;padding:12px;align-self:center}
+ .forma-case .section-group>.case-picture,.forma-case .section-group>.mobile-video{width:calc(100% - 32px);max-width:361px}
+ .forma-case .section-group>.structure-carousel{width:100%;max-width:none}
+ .forma-case .panel .case-picture,.forma-case .panel .mobile-video{width:100%;max-width:361px;align-self:center}
+ .forma-case .panel .media-carousel{max-width:100%}
+ .forma-case .media-slide>.case-picture{width:100%;max-width:none}
+ .forma-case .media-slide .case-image{border-radius:0}
+ .forma-case .forma-phone-video .forma-video{mask-image:url('./assets/jtbd-mobile.png');mask-mode:alpha;mask-size:100% 100%;mask-repeat:no-repeat}
+ .forma-case .concept-carousel .forma-desktop-video{border-radius:12px}
+ .forma-case .concept-carousel .media-track{border-radius:12px}
+ .forma-case #result .pills span{font-size:14px;line-height:20px}
+ .media-track{border-radius:0}
+ .media-page{height:36px}
+ .structure-carousel .media-track{gap:0;cursor:grab;overflow-x:auto}
+ .structure-carousel .media-slide{flex-basis:100%}
+ .structure-carousel .media-pagination{display:flex}
+}

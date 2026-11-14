@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00ad53">
+  <meta name="description" content="Екатерина Иванова — продуктовый дизайнер. Проектирую мобильные приложения и веб-продукты для B2B и B2C. Избранные проекты, опыт и контакты.">
+  <meta property="og:title" content="Екатерина Иванова — продуктовый дизайнер">
+  <meta property="og:description" content="Мобильные приложения и веб-продукты. Избранные проекты, опыт и контакты.">
+  <meta property="og:type" content="website">
+  <title>Екатерина Иванова — продуктовый дизайнер</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/fonts.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./content.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#projects">К проектам</a>
+  <main class="portfolio">
+    <aside class="sidebar" aria-label="О дизайнере">
+      <header class="profile surface" data-reveal>
+        <div class="portrait"><img src="./assets/portrait.png" alt="Екатерина Иванова" width="886" height="886" fetchpriority="high"></div>
+        <h1>Екатерина Иванова</h1>
+        <p class="role">Продуктовый дизайнер</p>
+      </header>
+      <nav class="contacts" aria-label="Связаться со мной" data-reveal>
+        <a class="contact-button" href="https://t.me/ekvikatheryn" target="_blank" rel="noopener noreferrer" aria-label="Telegram — откроется в новой вкладке">Telegram</a>
+        <a class="contact-button" href="https://www.linkedin.com/in/ekvivanova/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn — откроется в новой вкладке">LinkedIn</a>
+        <a class="contact-button" href="https://drive.google.com/file/d/11P9XlMFpqEjfcO6KCPjVZinHb86MQMVp/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Резюме CV PDF — откроется в новой вкладке">CV PDF</a>
+      </nav>
+      <div class="about surface" data-reveal>
+        <section class="about-section" aria-labelledby="about-heading">
+          <h2 id="about-heading">Обо мне</h2>
+          <div class="bio">
+            <p>Привет, я продуктовый дизайнер, 3+ года опыта в мобильных B2C-приложений и веб-продуктов для B2B и B2C сегментов</p>
+            <p>Быстро погружаюсь в новые продукты, самостоятельно выстраиваю процесс проектирования и использую современные инструменты, включая AI, чтобы сделать дизайн-процесс быстрее и эффективнее</p>
+            <p>Сейчас хочу применять этот опыт в продуктовой команде, а также развивать продукт, запускать новые фичи и решать задачи пользователей и бизнеса</p>
+          </div>
+        </section>
+        <section class="about-section" aria-labelledby="experience-heading">
+          <h2 id="experience-heading">Опыт работы</h2>
+          <div class="experience">
+            <div class="experience-line"><p>Reka Digital Studio</p><p class="dates">октябрь, 2023 - июнь,&nbsp;2026</p></div>
+            <p class="studio-description">студия с 15-летним опытом комплексной разработки цифровых решений для бизнеса</p>
+          </div>
+        </section>
+      </div>
+    </aside>
+    <section class="projects" id="projects" tabindex="-1" aria-label="Избранные проекты">
+      <button class="project project-one" type="button" data-project="sc208-app" data-reveal aria-label="SC208 — мобильное приложение">
+        <span class="project-media phone-media dark-media">
+          <span class="phone">
+            <img class="phone-frame" src="./assets/iphone.png" alt="" width="864" height="1762" draggable="false">
+            <span class="phone-display"><video class="phone-screen" data-src="./assets/project-1.mp4" poster="./assets/project-1-poster.jpg" autoplay muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" disablepictureinpicture></video></span>
+            <img class="phone-island" src="./assets/iphone.png" alt="" width="864" height="1762" draggable="false">
+          </span>
+        </span>
+        <span class="project-info">
+          <span class="tags"><span>SC208</span><span>B2C</span><span>Mobile App</span></span>
+          <span class="project-description">Как я перевела ключевые пользовательские сценарии<br class="desktop-break"> в мобильное приложение</span>
+        </span>
+      </button>
+      <button class="project project-two" type="button" data-project="sc208-web" data-reveal aria-label="SC208 — веб-сайт">
+        <span class="project-media wide-media">
+          <video data-src="./assets/project-2.mp4" poster="./assets/project-2-poster.jpg" autoplay muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" disablepictureinpicture></video>
+        </span>
+        <span class="project-info">
+          <span class="tags"><span>SC208</span><span>B2C</span><span>WEB</span></span>
+          <span class="project-description">Как я упростила пользовательский путь и увеличила количество заявок почти в 6 раз</span>
+        </span>
+      </button>
+      <button class="project project-three" type="button" data-project="forma" data-reveal aria-label="FORMA — веб-сайт">
+        <span class="project-media wide-media">
+          <video data-src="./assets/project-3.mp4" poster="./assets/project-3-poster.jpg" autoplay muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" disablepictureinpicture></video>
+        </span>
+        <span class="project-info">
+          <span class="tags"><span>FORMA</span><span>B2C</span><span>B2B</span><span>WEB</span></span>
+          <span class="project-description">Как я сделала редизайн сайта производителя премиальных дверей с фокусом на привлечение клиентов и комплексные проекты</span>
+        </span>
+      </button>
+      <button class="project project-four" type="button" data-project="gka-docks" data-reveal aria-label="GKA DOCKS — веб-сайт">
+        <span class="project-media phone-media">
+          <img class="wave" src="./assets/wave.png" width="1178" height="266" alt="" draggable="false">
+          <span class="phone">
+            <img class="phone-frame" src="./assets/iphone.png" alt="" width="864" height="1762" draggable="false">
+            <span class="phone-display"><video class="phone-screen" data-src="./assets/project-4.mp4" poster="./assets/project-4-poster.jpg" autoplay muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" disablepictureinpicture></video></span>
+            <img class="phone-island" src="./assets/iphone.png" alt="" width="864" height="1762" draggable="false">
+          </span>
+        </span>
+        <span class="project-info">
+          <span class="tags"><span>GKA DOCKS</span><span>B2C</span><span>B2B</span><span>WEB</span></span>
+          <span class="project-description">Как я упростила выбор сложного технического продукта<br class="desktop-break"> и спроектировала разные сценарии покупки для B2B и B2C</span>
+        </span>
+      </button>
+    </section>
+  </main>
+  <div class="project-cursor" aria-hidden="true"><span>Перейти в проект</span></div>
+  <div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
