@@ -15,6 +15,7 @@
 .gka-case .mobile-media{display:none}
 .gka-case .scenario-slider{display:flex;flex-direction:column;gap:0;width:100%;max-width:none}
 .scenario-track{display:flex;width:100%;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:24px;cursor:grab;touch-action:pan-x pan-y;outline-offset:4px}
+.scenario-track.is-enhanced{scroll-snap-type:none;scroll-behavior:auto}
 .scenario-track::-webkit-scrollbar{display:none}
 .scenario-track:focus-visible{outline:3px solid var(--ink)}
 .scenario-track.is-dragging{scroll-snap-type:none;cursor:grabbing;user-select:none}
