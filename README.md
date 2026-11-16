@@ -23,7 +23,7 @@
 
 - Telegram: https://t.me/ekvikatheryn
 - LinkedIn: https://www.linkedin.com/in/ekvivanova/
-- CV: https://drive.google.com/file/d/11P9XlMFpqEjfcO6KCPjVZinHb86MQMVp/view?usp=sharing
+- CV: https://drive.google.com/file/d/1PAv73y_7m85s2VeL4mEyr6TqG1zsuzXZ/view?usp=sharing
 
 ## Страницы проектов
 
