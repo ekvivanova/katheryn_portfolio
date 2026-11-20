@@ -53,7 +53,8 @@ h2 { font-size: 18px; line-height: 26px; }
 .experience { display: flex; flex-direction: column; gap: 8px; }
 .experience-line { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 12px; border-bottom: 1px solid #acacac3d; padding-bottom: 8px; font: 400 14px/20px Figtree, Inter, sans-serif; }
 .experience-line p { flex: 0 0 auto; min-width: 0; }
-.experience-line .dates { flex: 1 1 0; min-width: min-content; font-size: 12px; line-height: 12px; padding-top: 4px; color: var(--muted); text-align: left; align-self: stretch; }
+.experience-line .dates { flex: 1 1 0; min-width: min-content; font: 400 12px/18px Inter, Arial, sans-serif; padding-top: 1px; color: var(--muted); text-align: left; align-self: stretch; }
+.experience-line .dates span { white-space: nowrap; }
 .studio-description { color: #acacac; font-size: 12px; line-height: 18px; }
 .projects {
   display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
